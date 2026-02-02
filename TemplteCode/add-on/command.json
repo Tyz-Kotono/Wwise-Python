@@ -1,0 +1,44 @@
+﻿{
+  "commands": [
+    {
+      "id": "Editor.sys",
+      "displayName": "Sys",
+      "program": "python",
+      "args": "\"${CurrentCommandDirectory}\\getOriginalFilePath.py\" -i \"${originalFilePath}\"",
+      "contextMenu": {
+        "basePath": "Editor",
+        "enabledFor": "Sound"
+      }
+    },
+    {
+      "id": "Editor.sys",
+      "displayName": "Sys",
+      "program": "D:/Code/env313/Scripts/python.exe",
+      "args": "\"${CurrentCommandDirectory}\\cmd.py\" -i \"${originalFilePath}\"",
+      "contextMenu": {
+        "basePath": "Editor",
+        "enabledFor": "Sound"
+      }
+    },
+    {
+      "id": "Editor.CheckLoudness",
+      "displayName": "CheckLoudness",
+      "program": "D:/Code/env313/Scripts/python.exe",
+      "args": "\"${CurrentCommandDirectory}\\04_getAllLoudness.py\" -i \"${id}\"",
+      "contextMenu": {
+        "basePath": "Editor"
+      }
+    },
+    {
+      "id": "Check.CheckLoudness",
+      "displayName": "CheckLoudness",
+      "program": "${CurrentCommandDirectory}\\exe\\04_getAllLoudness.exe",
+      //-i "{id1} {id2} {id3}"
+      "args": "-i \"${id}\"",
+      "contextMenu": {
+        "basePath": "Check"
+      }
+    }
+  ],
+  "version": 2
+}

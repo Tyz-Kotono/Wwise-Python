@@ -1,0 +1,67 @@
+{
+    "{5C12C0D3-BFD6-4789-AE02-3D12BE0284FB}": {
+        "id": "{5C12C0D3-BFD6-4789-AE02-3D12BE0284FB}",
+        "type": "Folder",
+        "name": "ambient"
+    },
+    "{9367799B-F3F5-4FA3-A0B4-4A305FADB0C6}": {
+        "id": "{9367799B-F3F5-4FA3-A0B4-4A305FADB0C6}",
+        "type": "Folder",
+        "name": "buttons"
+    },
+    "{0C717060-A753-4097-BFDC-5EF42ECF1816}": {
+        "id": "{0C717060-A753-4097-BFDC-5EF42ECF1816}",
+        "type": "Folder",
+        "name": "common"
+    },
+    "{DB078D09-EB25-4516-8E55-6AC78EBF3D62}": {
+        "id": "{DB078D09-EB25-4516-8E55-6AC78EBF3D62}",
+        "type": "Folder",
+        "name": "doors"
+    },
+    "{00CEAB64-A121-4525-B724-D5F86FB2B4C4}": {
+        "id": "{00CEAB64-A121-4525-B724-D5F86FB2B4C4}",
+        "type": "Folder",
+        "name": "items"
+    },
+    "{AB3460EC-94C9-4281-90E3-3B1122DA1E12}": {
+        "id": "{AB3460EC-94C9-4281-90E3-3B1122DA1E12}",
+        "type": "Folder",
+        "name": "music"
+    },
+    "{DB9BED5B-3EC3-4EA9-AD5E-F2454865B0C4}": {
+        "id": "{DB9BED5B-3EC3-4EA9-AD5E-F2454865B0C4}",
+        "type": "Folder",
+        "name": "physics"
+    },
+    "{0344AD1B-5E55-4DFE-90A7-6F20758376B1}": {
+        "id": "{0344AD1B-5E55-4DFE-90A7-6F20758376B1}",
+        "type": "Folder",
+        "name": "player"
+    },
+    "{E46FE4E8-4D1D-4001-ABE4-EAC20A0C994B}": {
+        "id": "{E46FE4E8-4D1D-4001-ABE4-EAC20A0C994B}",
+        "type": "Folder",
+        "name": "training"
+    },
+    "{F1E8F4B6-408F-48F1-90A3-D3F57F9027C6}": {
+        "id": "{F1E8F4B6-408F-48F1-90A3-D3F57F9027C6}",
+        "type": "Folder",
+        "name": "ui"
+    },
+    "{3B118760-5E9D-474B-8790-DD0054EBDB8F}": {
+        "id": "{3B118760-5E9D-474B-8790-DD0054EBDB8F}",
+        "type": "Folder",
+        "name": "vo"
+    },
+    "{E598048C-F9F1-4EA4-8A6B-41D955294BA3}": {
+        "id": "{E598048C-F9F1-4EA4-8A6B-41D955294BA3}",
+        "type": "Folder",
+        "name": "weapons"
+    },
+    "{9F6CACE3-6AD9-4092-A638-BF7AA00C7BE6}": {
+        "id": "{9F6CACE3-6AD9-4092-A638-BF7AA00C7BE6}",
+        "name": "ak47",
+        "type": "Folder"
+    }
+}

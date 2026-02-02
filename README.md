@@ -1,2 +1,2 @@
-# Wwise-Python
-Wwise python code for Tool
+# Wwise-Waapi
+Learn Waapi 
