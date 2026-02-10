@@ -2,6 +2,7 @@
 from waapi import WaapiClient, CannotConnectToWaapiException
 from pprint import pprint
 
+
 def get_type(client: WaapiClient, guid):
     args = {
         'from': {'id': [guid]}
@@ -10,24 +11,26 @@ def get_type(client: WaapiClient, guid):
     result = client.call("ak.wwise.core.object.get", args, options=options)
     return result['return'][0]['type']
 
+
 def get_Property_by_classID(client: WaapiClient, class_id):
     args = {
         'classId': class_id,
     }
-    result = client.call("ak.wwise.core.object.getPropertyAndReferenceNames", args)
+    result = client.call(
+        "ak.wwise.core.object.getPropertyAndReferenceNames", args)
     return result['return']
 
 
 try:
-    with WaapiClient() as client:
-        result =  client.call('ak.wwise.core.object.getTypes')
+    with WaapiClient(url='ws://127.0.0.1:8080/waapi') as client:
+        result = client.call('ak.wwise.core.object.getTypes')
 
         pprint(result)
         pprint('=========================================')
         pprint('                 getTypes                ')
         pprint('=========================================')
 
-        result = get_Property_by_classID(client,16)
+        result = get_Property_by_classID(client, 16)
         pprint(result)
         pprint('=========================================')
         pprint('    getPropertyAndReferenceNames         ')
